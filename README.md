@@ -180,6 +180,8 @@ Return the maximum number of water bottles you can drink.
 
 Example 1:
 
+![conversion] (images/Btl-example1.PNG)
+
 Input: numBottles = 9, numExchange = 3
 Output: 13
 Explanation: You can exchange 3 empty bottles to get 1 full water bottle.
