@@ -178,7 +178,7 @@ Return the maximum number of water bottles you can drink.
 
 Example 1:
 
-![conversion](images/btl-example1.png)
+![conversion](/images/btl-example1.png)
  ```
 Input: numBottles = 9, numExchange = 3
 Output: 13
@@ -187,7 +187,7 @@ Number of water bottles you can drink: 9 + 3 + 1 = 13.
 ```
 
 Example 2:
-![conversion](images/btl-example2.png)
+![conversion](/images/btl-example2.png)
 ```
 Input: numBottles = 15, numExchange = 4
 Output: 19
