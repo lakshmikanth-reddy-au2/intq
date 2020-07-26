@@ -195,3 +195,122 @@ Explanation: You can exchange 4 empty bottles to get 1 full water bottle.
 Number of water bottles you can drink: 15 + 3 + 1 = 19.
 
 ```
+
+# 10
+
+Given an array of integers arr, a lucky integer is an integer which has a frequency in the array equal to its value.
+
+Return a lucky integer in the array. If there are multiple lucky integers return the largest of them. If there is no lucky integer return -1.
+```
+Example 1:
+
+Input: arr = [2,2,3,4]
+Output: 2
+Explanation: The only lucky number in the array is 2 because frequency[2] == 2.
+
+Example 2:
+
+Input: arr = [1,2,2,3,3,3]
+Output: 3
+Explanation: 1, 2 and 3 are all lucky numbers, return the largest of them.
+```
+
+# 11
+
+Given an array of unique integers salary where salary[i] is the salary of the employee i.
+
+Return the average salary of employees excluding the minimum and maximum salary.
+```
+Example 1:
+
+Input: salary = [4000,3000,1000,2000]
+Output: 2500.00000
+Explanation: Minimum salary and maximum salary are 1000 and 4000 respectively.
+Average salary excluding minimum and maximum salary is (2000+3000)/2= 2500
+```
+# 12
+
+Given a number N, the task is to print the following pattern:
+```
+Input: 10
+Output:                    
+          * 
+         * * 
+        * * * 
+       * * * * 
+      * * * * * 
+     * * * * * * 
+    * * * * * * * 
+   * * * * * * * * 
+  * * * * * * * * * 
+ * * * * * * * * * * 
+
+Input: 5
+Output:
+     * 
+    * * 
+   * * * 
+  * * * * 
+ * * * * * 
+```
+
+# 13
+
+Write a Javascript function that finds the missing numbers in an array of integers from 1 to N, where N being the largest number in the array.
+
+Examples:
+- `findMissing( [1, 2, 4, 5, 6] )` should return `[3]` as `3` is the missing number in the series.
+- `findMissing( [1, 2, 3, 4, 5, 6, 7, 9, 11, 12, 13, 14, 15] )` should return `[8, 10]` as both of them are missing the series.
+
+You can assume that the input array is sorted and does not contain any duplicates.
+
+# 14
+
+Roman numerals are represented by seven different symbols: I, V, X, L, C, D and M.
+```
+Symbol       Value
+I             1
+V             5
+X             10
+L             50
+C             100
+D             500
+M             1000
+```
+For example, two is written as II in Roman numeral, just two one's added together. Twelve is written as, XII, which is simply X + II. The number twenty seven is written as XXVII, which is XX + V + II.
+
+Roman numerals are usually written largest to smallest from left to right. However, the numeral for four is not IIII. Instead, the number four is written as IV. Because the one is before the five we subtract it making four. The same principle applies to the number nine, which is written as IX. There are six instances where subtraction is used:
+
+I can be placed before V (5) and X (10) to make 4 and 9. 
+X can be placed before L (50) and C (100) to make 40 and 90. 
+C can be placed before D (500) and M (1000) to make 400 and 900.
+Given a roman numeral, convert it to an integer. Input is guaranteed to be within the range from 1 to 3999.
+```
+Example 1:
+
+Input: "III"
+Output: 3
+Example 2:
+
+Input: "IV"
+Output: 4
+Example 3:
+
+Input: "IX"
+Output: 9
+Example 4:
+
+Input: "LVIII"
+Output: 58
+Explanation: L = 50, V= 5, III = 3.
+Example 5:
+
+Input: "MCMXCIV"
+Output: 1994
+Explanation: M = 1000, CM = 900, XC = 90 and IV = 4.
+```
+
+# 15
+Write a function to input a decimal (base-10) number and return its binary equivalent (base-2). The image below illustrates the method to get a binary equivalent `10001` of a decimal number `17`.
+
+![conversion](images/decimal-binary.png)
