@@ -187,6 +187,7 @@ Number of water bottles you can drink: 9 + 3 + 1 = 13.
 ```
 
 Example 2:
+
 ![conversion](https://github.com/lakshmikanth-reddy-au2/intq/blob/master/images/Btl-example2.PNG)
 ```
 Input: numBottles = 15, numExchange = 4
